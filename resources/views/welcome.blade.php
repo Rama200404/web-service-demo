@@ -1,46 +1,34 @@
-<!-- resources/views/welcome.blade.php -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Welcome to Laravel</title>
+ <!-- Bootstrap CSS -->
+ <link rel="stylesheet" 
+href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
 <body>
-
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="container-fluid">
-        <a class="navbar-brand" href="#">MyApp</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Features</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
-                </li>
-            </ul>
-        </div>
-    </div>
-</nav>
-
-<div class="container">
-    <h1>Welcome to MyApp</h1>
-</div>
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+ <!-- Navbar -->
+ <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+ <a class="navbar-brand" href="#">My Laravel Site</a>
+ <div class="collapse navbar-collapse">
+ <ul class="navbar-nav ml-auto">
+ <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
+ <li class="nav-item"><a class="nav-link" href="/about">About</a></li>
+ <li class="nav-item"><a class="nav-link" href="/portfolio">Portfolio</a></li>
+ <li class="nav-item"><a class="nav-link" href="/contact">Contact</a></li>
+ </ul>
+ </div>
+ </nav>
+ <!-- Main Content -->
+ <div class="container">
+ <h1 class="text-center mt-5">Welcome to My Laravel App</h1>
+ <p class="text-center">This is the home page with a Bootstrap navbar!</p>
+ </div>
+ <!-- Bootstrap JS -->
+ <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+ <script 
+src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
-
-<footer class="footer mt-auto py-3 bg-light">
-    <div class="container">
-        <span class="text-muted">&copy; 2024 MyApp. All rights reserved.</span>
-    </div>
-</footer>
